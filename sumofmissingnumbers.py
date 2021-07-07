@@ -1,4 +1,4 @@
-def sum_of_missing_number(array):
+def sum_of_missing_numbers(array):
     mx=max(array)
     mn=min(array)
     newlist = []
@@ -10,4 +10,4 @@ def sum_of_missing_number(array):
     print(sum(newlist))
 
 a = ([12,15,16,11,17,20,27])
-sum_of_missing_number(a)
+sum_of_missing_numbers(a)
